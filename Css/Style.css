@@ -1,0 +1,130 @@
+/*Padronização*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+/*Cabeçalho*/
+header{
+    background-color:#1c5052;
+    padding: 30px;
+    color:#f2f2f2;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+
+}
+
+.logo{
+    background-image: url(../Img/logo2-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 200px;
+    position: absolute; 
+    top: 5px;
+    left: 625px;
+    z-index: index 1;
+}
+/*Main*/
+
+.container{
+    background-color: #f2f2f2;
+    min-height: 70vh;
+    padding: 50px; 
+}
+
+.gods{
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 20px; 
+    
+}
+.card h3{
+    text-align: center;
+    padding:10px ;
+    text-transform: uppercase;
+    color: #005611;
+}
+.card p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.images{
+    height: 300px;
+    width: 100%;
+    background-color: #160921;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+#img-1{
+   background-image: url(../Img/Ra.jpg); 
+}
+#img-2{
+   background-image: url(../Img/Toth.jpg); 
+}
+#img-3{
+   background-image: url(../Img/osiris.jpg); 
+}
+#img-4{
+   background-image: url(../Img/isis.jpg); 
+}
+#img-5{
+   background-image: url(../Img/horus.jpg); 
+}
+#img-6{
+   background-image: url(../Img/sekhemet.jpg); 
+}
+#img-7{
+    background-image: url(../Img/hathor.jpg);
+}
+#img-8{
+    background-image: url(../Img/Set.jpg);
+}
+#img-9{
+    background-image: url(../Img/neftiss.jpg);
+}
+#img-10{
+    background-image: url(../Img/anubis.jpg);
+}
+#img-11{
+    background-image: url(../Img/bastet.jpg);
+}
+#img-12{
+    background-image: url(../Img/Khnum.jpg);
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color:#f2f2f2;
+    width: 100%;
+    background-color: #1c5052;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: #213635;
+}.btn{
+    padding: 10px;
+}
+
+/*Rodapé*/
+
+footer{
+    background-color:#1c5052;
+    padding: 80px;
+    text-align: center;
+    color:#f2f2f2;
+}
+
+
